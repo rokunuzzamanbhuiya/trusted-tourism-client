@@ -16,7 +16,7 @@ const Services = () => {
     <section id="service-id" className="mt-5 container">
       <h5 className="text-center fw-bolder">Most Popular Tours</h5>
       <h1 className="text-center fw-bolder">
-        Our <span style={{ color: "#1eb0ba" }}>Tours</span>
+        Our <span style={{ color: "#fe8c01" }}>Tours</span>
       </h1>
       <p className="text-center mb-5">
         To contribute to positive change and achieve our <br /> sustainability

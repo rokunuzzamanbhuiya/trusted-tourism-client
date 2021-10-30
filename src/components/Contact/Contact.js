@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import "./Contact.css";
 
 const Contact = () => {
@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="container">
           <h5 className="text-center fw-bolder">Contact With Us</h5>
           <h1 className="text-center fw-bolder">
-            Send <span style={{ color: "#1eb0ba" }}>Message</span>
+            Send <span style={{ color: "#fe8c01" }}>Message</span>
           </h1>
           <p className="text-center mb-5">
             To contribute to positive change and achieve our <br />{" "}
@@ -92,9 +92,9 @@ const Contact = () => {
                   ></textarea>
                 </div>
                 <div className="text-right">
-                  <NavLink className="btn btn-danger contactbtn" to="/">
+                  <Link className="btn btn-danger contactbtn" to="/">
                     Send
-                  </NavLink>
+                  </Link>
                 </div>
               </form>
             </div>

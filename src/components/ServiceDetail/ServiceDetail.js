@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useParams } from 'react-router';
 import './ServiceDetail.css';
 
@@ -22,7 +22,7 @@ const ServiceDetail = () => {
 
   return (
     <div className="sdetail">
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
           <div className="col-md-12">
             <h2 className="justify-content-center align-items-center sdetail-title-head">
@@ -38,10 +38,75 @@ const ServiceDetail = () => {
             <h3 className="justify-content-center align-items-center sdetail-title">
               ${singleData.price}
             </h3>
-            <div className="text-center">
-              <Link className="btn btn-danger mt-2 sdetail-btn" to="/">
-                Confirm Now
-              </Link>
+            <div>
+              <div className="col-md-12 cnfm-form">
+                <form action="" method="">
+                  <div className="name">
+                    <div className="form-group">
+                      <input
+                        name="name"
+                        type="text"
+                        className="form-control"
+                        id="name"
+                        placeholder="Name"
+                      />
+                    </div>
+                  </div>
+                  <div className="email">
+                    <div className="form-group">
+                      <input
+                        name="email"
+                        type="email"
+                        className="form-control"
+                        id="email"
+                        placeholder="Email"
+                      />
+                    </div>
+                  </div>
+                  <div className="form-group">
+                    <input
+                      name="sub"
+                      type="text"
+                      className="form-control"
+                      id="sub"
+                      placeholder="Adress"
+                    />
+                  </div>
+                  <div className="form-group">
+                    <input
+                      name="sub"
+                      type="text"
+                      className="form-control"
+                      id="sub"
+                      placeholder="City"
+                    />
+                  </div>
+                  <div className="form-group">
+                    <input
+                      name="sub"
+                      type="text"
+                      className="form-control"
+                      id="sub"
+                      placeholder="Phone"
+                    />
+                  </div>
+                  <div className="form-group">
+                    <input
+                      name="sub"
+                      type="date"
+                      className="form-control"
+                      id="sub"
+                      placeholder="Date"
+                    />
+                  </div>
+
+                  <div className="text-center">
+                    <Link className="btn sdetail-btn" to="/confirm">
+                      Confirm Your Order
+                    </Link>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>

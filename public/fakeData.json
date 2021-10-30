@@ -9,7 +9,7 @@
     "mobile": "+91328672",
     "role": "Developer",
     "price": "2002",
-    "picture": "https://raw.githubusercontent.com/rokunuzzamanbhuiya/fake-data/main/images/services/intro01.webp"
+    "picture": "https://raw.githubusercontent.com/rokunuzzamanbhuiya/fake-data-json/main/images/services/intro01.png"
     },
     {
     "gender": "male",
@@ -21,7 +21,7 @@
     "mobile": "+91328673",
     "role": "Developer",
     "price": "2003",
-    "picture": "https://raw.githubusercontent.com/rokunuzzamanbhuiya/fake-data/main/images/services/intro02.webp"
+    "picture": "https://raw.githubusercontent.com/rokunuzzamanbhuiya/fake-data-json/main/images/services/intro02.png"
     },
     {
     "gender": "female",
@@ -33,7 +33,7 @@
     "mobile": "+91328672",
     "role": "Developer",
     "price": "2002",
-    "picture": "https://raw.githubusercontent.com/rokunuzzamanbhuiya/fake-data/main/images/services/intro03.webp"
+    "picture": "https://raw.githubusercontent.com/rokunuzzamanbhuiya/fake-data-json/main/images/services/intro03.png"
     },
     {
     "gender": "male",
@@ -45,7 +45,7 @@
     "mobile": "+91328673",
     "role": "Developer",
     "price": "2003",
-    "picture": "https://raw.githubusercontent.com/rokunuzzamanbhuiya/fake-data/main/images/services/intro04.webp"
+    "picture": "https://raw.githubusercontent.com/rokunuzzamanbhuiya/fake-data-json/main/images/services/intro04.png"
     },
     {
     "gender": "female",
@@ -57,7 +57,7 @@
     "mobile": "+91328672",
     "role": "Developer",
     "price": "2002",
-    "picture": "https://raw.githubusercontent.com/rokunuzzamanbhuiya/fake-data/main/images/services/intro05.webp"
+    "picture": "https://raw.githubusercontent.com/rokunuzzamanbhuiya/fake-data-json/main/images/services/intro05.png"
     },
     {
     "gender": "male",
@@ -69,6 +69,6 @@
     "mobile": "+91328673",
     "role": "Developer",
     "price": "2003",
-    "picture": "https://raw.githubusercontent.com/rokunuzzamanbhuiya/fake-data/main/images/services/intro06.webp"
+    "picture": "https://raw.githubusercontent.com/rokunuzzamanbhuiya/fake-data-json/main/images/services/intro06.png"
     }      
 ]

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useHistory, useLocation } from 'react-router-dom';
 import useAuth from "../Hooks/useAuth";
+import "./Login.css";
 
 const Login = () => {
   const { signInWithGoogle,setUser ,loginWithEmailAndPassword, setIsLoading} = useAuth();
@@ -59,28 +60,40 @@ const handleLoginWithEmailAndPassword=(e)=>{
   return (
     <div class="login">
       <div className="container my-5">
-        <h2 className="text-center fw-bolder">Log In</h2>
+        <h2 className="mb-4 text-center fw-bolder">Log In</h2>
         <div className="row text-center">
           <div className="col-md-12">
             <form onSubmit={handleLoginWithEmailAndPassword}>
-              <input type="email" onBlur={handleGetEmail} placeholder="Email" />
+              <input
+                className="mb-3"
+                type="email"
+                onBlur={handleGetEmail}
+                placeholder="Email"
+              />
               <br />
               <input
+                className="mb-3"
                 type="password"
                 onBlur={handleGetPassword}
                 placeholder="Password"
               />
               <br />
-              <br />
-              <input type="submit" value="login" />
+              <input className="mb-3 login-btn" type="submit" value="Log In" />
             </form>
             <p>
               {" "}
               New User?<Link to="/register"> Please Sign Up</Link>
             </p>
             <span>Or</span>
-            <br/>
-            <button onClick={handleGoogleLogin}>Google Sign In</button>
+            <br />
+            <div class="mx-auto">
+              <button
+                className="mt-3 btn login-btn"
+                onClick={handleGoogleLogin}
+              >
+                Google Sign In
+              </button>
+            </div>
           </div>
         </div>
       </div>
