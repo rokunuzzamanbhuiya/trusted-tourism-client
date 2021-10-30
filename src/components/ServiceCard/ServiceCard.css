@@ -1,0 +1,12 @@
+.btnservice{
+  background: linear-gradient(120deg, #47bcc6 0%, #41aee6 100%);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  font-weight: 500;
+  padding: 10px 30px;
+}
+.serviceCard:hover{
+  border: 1px solid #1eb0ba;
+}
