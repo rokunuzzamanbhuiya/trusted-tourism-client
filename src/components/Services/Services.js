@@ -6,7 +6,7 @@ const Services = () => {
 
   // Loading Data
   useEffect(() => {
-    fetch("/fakeData.json")
+    fetch("https://grim-plague-97103.herokuapp.com/services")
       .then((res) => res.json())
       .then((data) => {
         setServices(data);

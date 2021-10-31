@@ -1,72 +1,73 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./ManageAllOrders.css";
 
 const ManageAllOrders = () => {
     return (
       <div>
-        <div class="container">
+        <div className="container">
           <h2 className="text-center pt-5">Manage All Orders</h2>
-          <div class="row">
-            <div class="col-md-12 p-5">
+          <div className="row">
+            <div className="col-md-12 p-5">
               <table
                 id=""
-                class="table table-striped table-bordered"
+                className="table table-striped table-bordered"
                 cellspacing="0"
                 width="100%"
               >
                 <thead>
                   <tr>
-                    <th class="th-sm">SL NO</th>
-                    <th class="th-sm">ID</th>
-                    <th class="th-sm">NAME</th>
-                    <th class="th-sm">USER</th>
-                    <th class="th-sm">CANCEL</th>
+                    <th className="th-sm">SL NO</th>
+                    <th className="th-sm">ID</th>
+                    <th className="th-sm">NAME</th>
+                    <th className="th-sm">USER</th>
+                    <th className="th-sm">CANCEL</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td class="th-sm">01</td>
-                    <td class="th-sm">আইটি কোর্স</td>
-                    <td class="th-sm">মোবাইল এবং ওয়েব এপ্লিকেশন ডেভেলপমেন্ট</td>
-                    <td class="th-sm">Rokunuzzaman Bhuiya</td>
-                    <td class="th-sm">
-                      <a href="">
-                        <i class="fas fa-trash-alt"></i>
-                      </a>
+                    <td className="th-sm">01</td>
+                    <td className="th-sm">101</td>
+                    <td className="th-sm">Discover Depth of Beach</td>
+                    <td className="th-sm">Rokunuzzaman Bhuiya</td>
+                    <td className="th-sm">
+                      <Link to="">
+                        <i className="fas fa-trash-alt"></i>
+                      </Link>
                     </td>
                   </tr>
 
                   <tr>
-                    <td class="th-sm">01</td>
-                    <td class="th-sm">আইটি কোর্স</td>
-                    <td class="th-sm">মোবাইল এবং ওয়েব এপ্লিকেশন ডেভেলপমেন্ট</td>
-                    <td class="th-sm">Rokunuzzaman Bhuiya</td>
-                    <td class="th-sm">
-                      <a href="">
-                        <i class="fas fa-trash-alt"></i>
-                      </a>
+                    <td className="th-sm">02</td>
+                    <td className="th-sm">102</td>
+                    <td className="th-sm">The Dark Forest Adventure</td>
+                    <td className="th-sm">Rokunuzzaman Bhuiya</td>
+                    <td className="th-sm">
+                      <Link to="">
+                        <i className="fas fa-trash-alt"></i>
+                      </Link>
                     </td>
                   </tr>
                   <tr>
-                    <td class="th-sm">01</td>
-                    <td class="th-sm">আইটি কোর্স</td>
-                    <td class="th-sm">মোবাইল এবং ওয়েব এপ্লিকেশন ডেভেলপমেন্ট</td>
-                    <td class="th-sm">Rokunuzzaman Bhuiya</td>
-                    <td class="th-sm">
-                      <a href="">
-                        <i class="fas fa-trash-alt"></i>
-                      </a>
+                    <td className="th-sm">03</td>
+                    <td className="th-sm">103</td>
+                    <td className="th-sm">Discover Depth of Beach</td>
+                    <td className="th-sm">Rokunuzzaman Bhuiya</td>
+                    <td className="th-sm">
+                      <Link to="">
+                        <i className="fas fa-trash-alt"></i>
+                      </Link>
                     </td>
                   </tr>
                   <tr>
-                    <td class="th-sm">01</td>
-                    <td class="th-sm">আইটি কোর্স</td>
-                    <td class="th-sm">মোবাইল এবং ওয়েব এপ্লিকেশন ডেভেলপমেন্ট</td>
-                    <td class="th-sm">Rokunuzzaman Bhuiya</td>
-                    <td class="th-sm">
-                      <a href="">
-                        <i class="fas fa-trash-alt"></i>
-                      </a>
+                    <td className="th-sm">04</td>
+                    <td className="th-sm">104</td>
+                    <td className="th-sm">Moscow Red City Land</td>
+                    <td className="th-sm">Rokunuzzaman Bhuiya</td>
+                    <td className="th-sm">
+                      <Link to="">
+                        <i className="fas fa-trash-alt"></i>
+                      </Link>
                     </td>
                   </tr>
                 </tbody>

@@ -73,43 +73,51 @@ const handleGoogleLogin = () => {
 
     return (
       <div class="signup">
-        <div className="container my-5">
-          <h2 className="mb-4 text-center fw-bolder">Sign Up</h2>
+        <div className="container my-5 shadow py-5">
+          <h2 className="mb-4 text-center rg-bolder">Sign Up</h2>
           <div className="row text-center">
-            <div className="col-md-12"></div>
-            <form onSubmit={handleRegistration}>
-              <input
-                className="mb-3"
-                type="text"
-                onBlur={handleGetName}
-                placeholder="Name"
-              />
-              <br />
-              <input
-                className="mb-3"
-                type="email"
-                onBlur={handleGetEmail}
-                placeholder="Email"
-              />
-              <br />
-              <input
-                className="mb-3"
-                type="password"
-                onBlur={handleGetPassword}
-                placeholder="Password"
-              />
-              <br />
-              <input className="mb-3 reg-btn" type="submit" value="Create An Account" />
-              <br />
-            </form>
-            <p>
-              Already Have An Account?<Link to="/login"> Please Log In</Link>
-            </p>
-            <span>Or</span>
-            <div class="mx-auto">
-              <button className="mt-3 btn reg-btn" onClick={handleGoogleLogin}>
-                Google Sign In
-              </button>
+            <div className="col-md-12">
+              <form onSubmit={handleRegistration}>
+                <input
+                  className="mb-3"
+                  type="text"
+                  onBlur={handleGetName}
+                  placeholder="Name"
+                />
+                <br />
+                <input
+                  className="mb-3"
+                  type="email"
+                  onBlur={handleGetEmail}
+                  placeholder="Email"
+                />
+                <br />
+                <input
+                  className="mb-3"
+                  type="password"
+                  onBlur={handleGetPassword}
+                  placeholder="Password"
+                />
+                <br />
+                <input
+                  className="mb-3 reg-btn"
+                  type="submit"
+                  value="Create An Account"
+                />
+                <br />
+              </form>
+              <p>
+                Already Have An Account?<Link to="/login"> Please Log In</Link>
+              </p>
+              <span>Or</span>
+              <div class="mx-auto">
+                <button
+                  className="mt-3 btn reg-btn"
+                  onClick={handleGoogleLogin}
+                >
+                  Google Sign In
+                </button>
+              </div>
             </div>
           </div>
         </div>

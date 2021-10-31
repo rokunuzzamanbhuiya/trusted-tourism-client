@@ -27,7 +27,7 @@ const Event = () => {
                 <div className="user-image">
                   <img className="p=5 mb-3" src={eventone} alt="" />
                 </div>
-                <h5>World Tours</h5>
+                <h5>World Tour Event</h5>
                 <hr className="m-2" />
                 <p>
                   Our program is make you enjoy and explore the life. we ‘ll be
@@ -48,7 +48,7 @@ const Event = () => {
                 <div className="user-image">
                   <img className="p=5 mb-3" src={eventtwo} alt="" />
                 </div>
-                <h5>Airline Tickets</h5>
+                <h5>Airline Tickets Event</h5>
                 <hr className="m-2" />
                 <p>
                   Our program is make you enjoy and explore the life. we ‘ll be
@@ -69,7 +69,7 @@ const Event = () => {
                 <div className="user-image">
                   <img className="p=5 mb-3" src={eventthree} alt="" />
                 </div>
-                <h5>Hotel Reservation</h5>
+                <h5>Hotel Reservation Event</h5>
                 <hr className="m-2" />
                 <p>
                   Our program is make you enjoy and explore the life. we ‘ll be
@@ -90,7 +90,7 @@ const Event = () => {
                 <div className="user-image">
                   <img className="p=5 mb-3" src={eventfour} alt="" />
                 </div>
-                <h5>Adventure Tours</h5>
+                <h5>Adventure Tour Event</h5>
                 <hr className="m-2" />
                 <p>
                   Our program is make you enjoy and explore the life. we ‘ll be
@@ -111,7 +111,7 @@ const Event = () => {
                 <div className="user-image">
                   <img className="p=5 mb-3" src={eventfive} alt="" />
                 </div>
-                <h5>Ocean Tours</h5>
+                <h5>Ocean Tour Event</h5>
                 <hr className="m-2" />
                 <p>
                   Our program is make you enjoy and explore the life. we ‘ll be
@@ -132,7 +132,7 @@ const Event = () => {
                 <div className="user-image">
                   <img className="p=5 mb-3" src={eventsix} alt="" />
                 </div>
-                <h5>Medical Tours</h5>
+                <h5>Medical Tour Event</h5>
                 <hr className="m-2" />
                 <p>
                   Our program is make you enjoy and explore the life. we ‘ll be

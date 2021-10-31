@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useParams } from 'react-router';
 import './ServiceDetail.css';
 
@@ -11,7 +11,7 @@ const ServiceDetail = () => {
   const [singleData, setSingleData] = useState([{}]);
 
   useEffect(() => {
-    fetch("/fakeData.json")
+    fetch("https://grim-plague-97103.herokuapp.com/services")
       .then((res) => res.json())
       .then((data) => {
         const showDetail = data.find((detail) => detail.id == detailId);
@@ -35,9 +35,11 @@ const ServiceDetail = () => {
               {singleData.name}
             </h3>
             <p className="text-center detail-para">{singleData.detail}</p>
-            <h3 className="justify-content-center align-items-center sdetail-title">
+            <h3 className="justify-content-center align-items-center sdetail-title pb-4">
               ${singleData.price}
             </h3>
+            <hr />
+            <h3 className="p-4 text-center">Please Fillup The Form For Confirm Your Order:</h3>
             <div>
               <div className="col-md-12 cnfm-form">
                 <form action="" method="">

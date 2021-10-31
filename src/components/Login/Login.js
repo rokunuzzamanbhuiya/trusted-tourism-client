@@ -59,8 +59,8 @@ const handleLoginWithEmailAndPassword=(e)=>{
 
   return (
     <div class="login">
-      <div className="container my-5">
-        <h2 className="mb-4 text-center fw-bolder">Log In</h2>
+      <div className="container my-5 shadow py-5">
+        <h2 className="mb-4 text-center log-bolder">Log In</h2>
         <div className="row text-center">
           <div className="col-md-12">
             <form onSubmit={handleLoginWithEmailAndPassword}>
