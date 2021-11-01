@@ -6,11 +6,11 @@ import "./Register.css";
 const Register = () => {
    
      
-    const { signInWithGoogle, createAccountWithGoogle,setUser , setIsLoading , updateName } = useAuth();
+const { signInWithGoogle, createAccountWithGoogle,setUser , setIsLoading , updateName } = useAuth();
 
-    const history= useHistory()
-    const location = useLocation()
-    const url= location.state?.from || "/home"
+const history= useHistory()
+const location = useLocation()
+const url= location.state?.from || "/home"
 
 const [name , setName] =useState('')
 const [email,setEmail]=useState('')

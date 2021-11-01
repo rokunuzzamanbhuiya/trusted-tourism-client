@@ -11,7 +11,7 @@ import eventsix from "../../images/about/event06.png";
 const Event = () => {
   return (
     <div class="event">
-      <div className="container my-5">
+      <div className="container">
         <h5 className="text-center fw-bolder">Our Best Events</h5>
         <h1 className="text-center fw-bolder">
           Our <span style={{ color: "#fe8c01" }}>Events</span>

@@ -48,12 +48,9 @@ const updateName= (name)=> {
     displayName: name
   }).then(() => {
     const newUser={...user, displayName: name} // recommend
-   setUser(newUser)
-    
-    // ...
+   setUser(newUser)   
   }).catch((error) => {
     // An error occurred
-    // ...
   });
 }
 
